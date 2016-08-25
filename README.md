@@ -3,10 +3,15 @@ An application for combining UAV telemetry and time stamped audio files (bat rec
 
 # Running the app
 
-In a session in R run the following code after installing the shiny R package
+Download a copy of this repository to your computer and in R navigate in to the project directory. Then run
 
 ```r
 library(shiny)
+library(devtools)
 
-runGitHub(repo = 'AugustT/BatUAV_app')
+# Only run this line the first time
+install_github(repo = 'AugustT/BatUAV')
+
+library(BatUAV)
+runApp()
 ```
