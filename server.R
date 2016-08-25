@@ -57,7 +57,7 @@ shinyServer(function(input, output) {
     combTab$Spectrogram <- unlist(lapply(X = combTab$file,
                                          FUN = writeSpectrogram,
                                          res = 70,
-                                         outdir = 'C:/Users/Tom/Dropbox/Work/drone_app/www'))
+                                         outdir = 'www'))
     
     combTab
     
