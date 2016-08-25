@@ -1,0 +1,4 @@
+This folder is where spectrogram images are placed.
+
+These will build up over time and will need clearing out. 
+I will update the code in the future to do this automatically.
